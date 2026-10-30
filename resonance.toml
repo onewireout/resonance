@@ -1,0 +1,17 @@
+[wallpaper]
+path = "~/Documents/Personal/Projects/Resonance/wallpaper.jpg"
+mode = "fill"
+
+[startup]
+apps = ["swaybg", "/path/to/Resonance/tools/hush/hush.py", "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"]
+
+[keybindings]
+"Super+Space" = "python3 /path/to/Resonance/tools/tide/tide.py 2>/tmp/tide.log"
+"Super+Q"     = "ghostty"
+"Super+E"     = "python3 /path/to/Resonance/tools/explorer/explorer.py"
+"Super+S"     = "slurp | grim -g - - | wl-copy"
+"Super+F"     = "fullscreen"
+"Super+Shift+F" = "true_fullscreen"
+
+[gestures]
+"swipe-up" = "python3 /path/to/Resonance/tools/sill/sill.py"
